@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the rich history and remarkable collection of The French Museum, showcasing masterpieces of 19th and 20th-century art. Immerse yourself in a journey through the evolution of artistic movements.">
+    <meta name="keywords" content="French art museum, 19th century art, modern art, impressionism, symbolism, romanticism, surrealism, classic art, art history, art exhibitions, famous art collections">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <title><?php echo isset($page_title) ? htmlspecialchars($page_title) : 'The French Museum'; ?></title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
