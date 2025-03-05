@@ -135,13 +135,13 @@
                     <?php for($i=1; $i<=8; $i++): ?>
                     <div class="swiper-slide aspect-video cursor-pointer group">
                         <img 
-                            src="/images/masterpiece<?= $i ?>.jpg" 
-                            alt="Шедевр <?= $i ?>" 
+                            src="/images/paint-<?= $i ?>.png" 
+                            alt="Masterpiece <?= $i ?>" 
                             class="w-full h-full object-cover rounded-xl shadow-lg"
                             loading="lazy"
                         >
                         <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <span class="text-white text-lg">Шедевр <?= $i ?></span>
+                            <span class="text-white text-lg">Masterpiece <?= $i ?></span>
                         </div>
                     </div>
                     <?php endfor; ?>
@@ -156,8 +156,8 @@
                     <?php for($i=1; $i<=8; $i++): ?>
                     <div class="swiper-slide aspect-square cursor-pointer opacity-50 transition-opacity">
                         <img 
-                            src="/images/masterpiece<?= $i ?>.jpg" 
-                            alt="Миниатюра <?= $i ?>" 
+                            src="/images/paint-<?= $i ?>.png" 
+                            alt="Miniature <?= $i ?>" 
                             class="w-full h-full object-cover rounded-lg"
                             loading="lazy"
                         >
@@ -179,8 +179,8 @@
                 <?php for($i=1; $i<=8; $i++): ?>
                 <div class="swiper-slide flex items-center justify-center p-8">
                     <img 
-                        src="/images/masterpiece<?= $i ?>-full.jpg" 
-                        alt="Шедевр <?= $i ?>" 
+                        src="/images/paint-<?= $i ?>.png" 
+                        alt="Masterpiece <?= $i ?>" 
                         class="max-h-full max-w-full object-contain rounded-lg"
                         loading="lazy"
                     >
