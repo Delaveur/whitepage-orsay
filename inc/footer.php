@@ -29,7 +29,7 @@
     </footer>
         <!-- Cookies Notice -->
         <div id="cookie-notice" class="fixed bottom-0 left-0 w-full bg-gray-800 text-white p-4 text-center" style="display: none;">
-        <p>We use cookies to enhance your experience. By continuing, you agree to our <a href="privacy.php" class="text-blue-400 underline">Privacy Policy</a>.</p>
+        <p>We use cookies to enhance your experience. By continuing, you agree to our <a href="/privacy.php" class="text-blue-400 underline">Privacy Policy</a>.</p>
         <button id="accept-cookies" class="bg-blue-500 text-white px-4 py-2 rounded mt-2">Accept</button>
     </div>
     <script>
