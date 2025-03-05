@@ -33,24 +33,27 @@
     
 </head>
 <body class="font-sans antialiased">
-    <!-- Навигация -->
+    <!-- Navigation -->
     <nav class="bg-white shadow-sm">
         <div class="container mx-auto px-4">
             <div class="flex justify-between items-center h-16">
-                <a href="/" class="text-2xl font-bold text-blue-600">Логотип</a>
+                <a href="/" class="text-2xl font-bold text-blue-600">The French Museum</a>
                 
-                <!-- Десктоп меню -->
+                <!-- Desktop menu -->
                 <div class="hidden md:flex space-x-8">
-                    <a href="/" class="hover:text-blue-600">Главная</a>
-                    <a href="pages/about.php" class="hover:text-blue-600">О нас</a>
-                    <a href="pages/contacts.php" class="hover:text-blue-600">Контакты</a>
+                    <a href="/about/" class="hover:text-blue-600">About Us</a>
+                    <a href="/en/whats-on/" class="hover:text-blue-600">What's on</a>
+                    <a href="/en/visit/" class="hover:text-blue-600">Visiting Information</a>
+                    <a href="/en/visit/admission-opening-times-tickets/" class="hover:text-blue-600">Admission</a>
+                    <a href="/en/collections/" class="hover:text-blue-600">Collections</a>
+                    <a href="/contacts/" class="hover:text-blue-600">Contacts</a>
                 </div>
 
-                <!-- Мобильная кнопка -->
+                <!-- Mobile button -->
                 <button 
                     id="menu-button"
                     class="md:hidden p-2 rounded-md text-gray-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
-                    aria-label="Меню"
+                    aria-label="Menu"
                     aria-expanded="false"
                     aria-controls="mobile-menu"
                 >
@@ -72,28 +75,47 @@
             </div>
         </div>
 
-        <!-- Мобильное меню -->
+        <!-- Mobile menu -->
         <div 
             id="mobile-menu" 
             class="md:hidden hidden absolute w-full bg-white shadow-lg py-2 z-40"
         >
             <a 
-                href="/" 
+                href="/about/" 
                 class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
             >
-                Главная
+                About Us
             </a>
             <a 
-                href="pages/about.php" 
+                href="/en/whats-on/" 
                 class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
             >
-                О нас
+                What's on
             </a>
             <a 
-                href="pages/contacts.php" 
+                href="/en/visit/" 
                 class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
             >
-                Контакты
+                Visiting Information
+            </a>
+            <a 
+                href="/en/visit/admission-opening-times-tickets/" 
+                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+            >
+                Admission
+            </a>
+            <a 
+                href="/en/collections/" 
+                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+            >
+                Collections
+            </a>
+            <a 
+                href="/contacts/" 
+                class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+            >
+                Contacts
             </a>
         </div>
+
     </nav>
