@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Информационный сайт</title>
+    <title><?php echo isset($page_title) ? htmlspecialchars($page_title) : 'The French Museum'; ?></title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -30,6 +30,7 @@
             opacity: 1;
         }
     </style>
+    
 </head>
 <body class="font-sans antialiased">
     <!-- Навигация -->
@@ -74,7 +75,7 @@
         <!-- Мобильное меню -->
         <div 
             id="mobile-menu" 
-            class="md:hidden hidden absolute w-full bg-white shadow-lg py-2"
+            class="md:hidden hidden absolute w-full bg-white shadow-lg py-2 z-40"
         >
             <a 
                 href="/" 

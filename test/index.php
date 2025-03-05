@@ -1,17 +1,18 @@
-<?php include '../inc/header.php'; ?>
+<?php
+$page_title = "Test page";
+include '../inc/header.php'; ?>
 
 <main class="min-h-screen">
     <!-- Хлебные крошки -->
     <nav class="bg-gray-100 py-4">
         <div class="container mx-auto px-4">
             <ol class="flex space-x-2">
-                <li><a href="/" class="text-blue-600 hover:text-blue-800">Главная</a></li>
+                <li><a href="/" class="text-blue-600 hover:text-blue-800">Main page</a></li>
                 <li class="text-gray-500">/</li>
-                <li class="text-gray-500">Античное искусство</li>
+                <li class="text-gray-500"><?php echo isset($page_title) ? htmlspecialchars($page_title) : 'The French Museum'; ?></li>
             </ol>
         </div>
     </nav>
-
     <!-- Основной контент -->
     <section class="py-12">
         <div class="container mx-auto px-4">
