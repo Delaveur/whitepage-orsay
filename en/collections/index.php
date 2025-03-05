@@ -13,10 +13,88 @@ include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php"); ?>
             </ol>
         </div>
     </nav>
-    <!-- Gallery of Masterpieces -->
-    <section class="py-20 bg-white">
+    <!-- Collections -->
+    <section class="pt-20 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12">Collections</h2>
+            <h2 class="text-3xl font-bold text-center mb-12">Our collections</h2>
+
+            <!-- First row collection-->
+            <div class="grid md:grid-cols-2 gap-6 lg:gap-8">
+                <a href="/masterpiece/" class="group relative block h-96 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500">
+                    <img 
+                        src="/images/paint-3.png" 
+                        alt="Masterpieces of the 19th Century" 
+                        class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                        loading="lazy"
+                    >
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/60 to-black/90 p-8 flex flex-col justify-end">
+                        <div class="border-l-4 border-white pl-4 transform group-hover:translate-x-2 transition-transform">
+                            <h3 class="text-2xl font-bold text-white mb-2">Masterpieces of the 19th Century</h3>
+                            <p class="text-gray-200">This collection is dedicated to 19th-century artists</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/en/collections/" class="group relative block h-96 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500">
+                    <img 
+                        src="/images/paint-7.png" 
+                        alt="Pearls of the collection" 
+                        class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                        loading="lazy"
+                    >
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/60 to-black/90 p-8 flex flex-col justify-end">
+                        <div class="border-l-4 border-white pl-4 transform group-hover:translate-x-2 transition-transform">
+                            <h3 class="text-2xl font-bold text-white mb-2">Pearls of the collection</h3>
+                            <p class="text-gray-200">Discover the timeless masterpieces that define our collection</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Second row collection -->
+            <div class="grid md:grid-cols-3 gap-6 lg:gap-8 mt-8">
+                <a href="/symbolism/" class="group relative block h-64 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500">
+                    <img 
+                        src="/images/paint-4.png" 
+                        alt="Symbolism and Its Influence" 
+                        class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                        loading="lazy"
+                    >
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <h3 class="text-xl font-bold text-white text-center">Symbolism and Its Influence</h3>
+                    </div>
+                </a>
+
+                <a href="/romanticism/" class="group relative block h-64 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500">
+                    <img 
+                        src="/images/paint-5.png" 
+                        alt="Romanticism in Art" 
+                        class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                        loading="lazy"
+                    >
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <h3 class="text-xl font-bold text-white text-center">Romanticism in Art</h3>
+                    </div>
+                </a>
+
+                <a href="/impressionist/" class="group relative block h-64 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-500">
+                    <img 
+                        src="/images/impressionist.png" 
+                        alt="Impressionist Paintings" 
+                        class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                        loading="lazy"
+                    >
+                    <div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <h3 class="text-xl font-bold text-white text-center">Impressionist Paintings</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery of Masterpieces -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Pearls of the collection</h2>
             
             <div class="swiper gallery-main relative">
                 <div class="swiper-wrapper">
