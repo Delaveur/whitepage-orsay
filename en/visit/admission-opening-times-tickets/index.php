@@ -3,7 +3,7 @@ $page_title = "Admission & Visiting Information";
 include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php"); ?>
 
 <main class="min-h-screen">
-    <!-- Хлебные крошки -->
+    <!-- Breadcrumbs -->
     <nav class="bg-gray-100 py-4">
         <div class="container mx-auto px-4">
             <ol class="flex space-x-2">

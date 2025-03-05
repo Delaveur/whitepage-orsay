@@ -3,7 +3,7 @@ $page_title = "Collections";
 include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php"); ?>
 
 <main class="min-h-screen">
-    <!-- Хлебные крошки -->
+    <!-- Breadcrumbs -->
     <nav class="bg-gray-100 py-4">
         <div class="container mx-auto px-4">
             <ol class="flex space-x-2">
@@ -13,7 +13,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php"); ?>
             </ol>
         </div>
     </nav>
-    <!-- Галерея шедевров -->
+    <!-- Gallery of Masterpieces -->
     <section class="py-20 bg-white">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center mb-12">Collections</h2>
@@ -56,7 +56,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php"); ?>
         </div>
     </section>
 
-    <!-- Модальное окно галереи -->
+    <!-- Modal window -->
     <div id="gallery-modal" class="fixed inset-0 z-50 hidden bg-black/90 backdrop-blur-md">
         <div class="absolute top-4 right-4 z-10">
             <button class="text-white text-4xl hover:text-gray-300 transition-colors" onclick="closeModal()">&times;</button>
@@ -80,7 +80,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php"); ?>
 
 </main>
 <script>
-// Инициализация основного слайдера
+
 const mainSlider = new Swiper('.gallery-main', {
     slidesPerView: 1,
     spaceBetween: 20,
@@ -101,7 +101,7 @@ const mainSlider = new Swiper('.gallery-main', {
     }
 });
 
-// Управление модальным окном
+
 document.querySelectorAll('.gallery-main .swiper-slide').forEach(slide => {
     slide.addEventListener('click', () => {
         document.getElementById('gallery-modal').classList.remove('hidden');

@@ -1,5 +1,5 @@
 <?php
-$page_title = "What's on";
+$page_title = "Masterpieces of the 19th Century";
 include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php"); ?>
 
 <main class="min-h-screen">
@@ -16,41 +16,42 @@ include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php"); ?>
     <!-- Main Content -->
     <section class="py-12">
         <div class="container mx-auto px-4">
-            <h1 class="text-4xl font-bold mb-8 text-center">Masters of the 19th Century</h1>
+            <h1 class="text-4xl font-bold mb-8 text-center">Masterpieces of the 19th Century</h1>
             
             <!-- Text and Image Block -->
             <div class="grid md:grid-cols-2 gap-12 mb-16">
                 <!-- Text Block (will be second on mobile) -->
                 <div class="prose max-w-none order-2 md:order-1">
                     <p class="text-lg text-gray-600 mb-6">
-                        This exhibition is dedicated to 19th-century artists who shaped a new vision of art, 
-                        paving the way for modernism. Here you will find works by masters who redefined 
-                        composition, color, and light.
+                        This collection is dedicated to 19th-century artists who revolutionized the world of art, 
+                        setting the stage for the modern movements that followed. Here, you'll find works by masters 
+                        who redefined composition, color, and the use of light.
                     </p>
                     
                     <h2 class="text-2xl font-bold mb-4">Impact of the Era</h2>
                     <p class="mb-4">
-                        19th-century art reflected social changes and scientific progress. The collection includes:
+                        The art of the 19th century mirrored significant social changes and scientific advancements. 
+                        This collection includes:
                     </p>
                     <ul class="list-disc pl-6 mb-6">
-                        <li>Paintings in realism and romanticism styles</li>
-                        <li>Impressionist works with unique brushstroke techniques</li>
-                        <li>Sculptures conveying movement and emotion</li>
-                        <li>Graphic works and sketches of famous masterpieces</li>
+                        <li>Realist and romantic-style paintings</li>
+                        <li>Impressionist works showcasing distinctive brushstroke techniques</li>
+                        <li>Sculptures capturing movement and emotion</li>
+                        <li>Graphic works and preliminary sketches of famous pieces</li>
                     </ul>
                 </div>
 
                 <!-- Image (will be first on mobile) -->
                 <div class="relative group h-fit order-1 md:order-2">
                     <img 
-                        src="/images/paint-1.png" 
+                        src="/images/paint-3.png" 
                         alt="19th-century painting" 
                         class="rounded-xl shadow-lg w-full h-auto object-cover"
                     >
                     <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center p-4">
                         <p class="text-white text-center text-sm">
                             19th-century artwork<br>
-                            Oil on canvas, 92 × 73 cm
+                            Oil on canvas
                         </p>
                     </div>
                 </div>
@@ -60,22 +61,23 @@ include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php"); ?>
             <div class="prose max-w-3xl mx-auto">
                 <h2 class="text-2xl font-bold mb-4">Collection Highlights</h2>
                 <p class="mb-6">
-                    The collection illustrates the most significant stylistic explorations of 19th-century artists. 
-                    The exhibition spans from classical traditions to bold experiments with color and form, 
-                    foreshadowing the artistic revolutions of the next century.
+                    The collection showcases the most influential stylistic developments in 19th-century art. 
+                    From classical traditions to daring experiments with color and form, this exhibition anticipates 
+                    the artistic revolutions of the 20th century.
                 </p>
 
                 <h3 class="text-xl font-bold mb-4 mt-8">Preserving the Legacy</h3>
                 <p class="mb-6">
-                    Specialists carefully restore the artworks using both traditional techniques and advanced technologies. 
-                    This ensures the preservation of original colors and material structures while minimizing interference.
+                    Art conservationists employ both traditional restoration methods and modern technologies to 
+                    preserve the integrity of these works. This careful approach ensures the longevity of original 
+                    colors and materials, with minimal intervention.
                 </p>
 
                 <div class="bg-blue-50 p-6 rounded-xl mt-8">
                     <h4 class="font-bold mb-2">Did You Know?</h4>
                     <p class="text-gray-600 mb-0">
-                        One of the featured paintings was long considered lost and was rediscovered in the 1970s 
-                        in a private collection. After extensive restoration, it is now on display again.
+                        One of the featured paintings was long thought to be lost, but it was rediscovered in the 1970s 
+                        in a private collection. After extensive restoration, it is now once again available for viewing.
                     </p>
                 </div>
             </div>
